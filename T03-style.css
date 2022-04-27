@@ -1,0 +1,330 @@
+html {
+  font-size: 62.5%; /* font-size 1em = 10px */
+}
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 750px;
+}
+
+p {
+  font-family: 'Gill Sans', sans-serif; 
+  font-size: 15px;
+}
+
+div.average, p.average, span.average {
+  margin-top: 5px; 
+  color: rgb(112, 110, 110);
+}
+
+label {
+  font-size: 15px;
+  font-weight: bolder;  
+  margin-left: 10px;
+  padding-bottom: 15px;
+  font-family: 'Gill Sans', sans-serif; 
+  font-size: 15px;
+}
+
+input {
+  width: 200px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 0px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+textarea {
+  width: 430px;
+  border: 0px;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  font-family: 'Gill Sans', sans-serif; 
+  font-size: 15px;
+}
+
+
+/* ========================== INDEX OR ABOUT PAGE ============================== */
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  background-color: rgb(253, 251, 251);
+}
+
+/* INDEX (1) HEADER */
+.indexHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  background-color: rgb(253, 251, 251);
+  min-width: 50px;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(192, 188, 188);
+}
+
+/* .photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 20px;  
+} */
+
+.photoProfile {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px;
+  padding-left: 15px;
+}
+
+.infoProfile {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+  margin-left: 40px;
+  margin-top: 15px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* INDEX (2) ABOUT ME */
+.indexAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  background-color: rgb(253, 251, 251);
+  /* border: 1px solid; */
+  min-width: 650px;
+  width: 100%;
+  min-height: 400px;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(192, 188, 188);
+  font-family: 'Trebuchet MS', sans-serif; 
+}
+
+.about {
+  height: 150px;
+  width: 60%;
+  float:left;
+  margin: 20px;
+  padding-left: 15px;  
+}
+
+.past {
+  display: flex; 
+  flex-direction: column;
+  height: 150px;
+  float: right;
+  margin: 20px;
+}
+
+/* INDEX (3) PROTFOLIO */
+.indexPortfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  background-color: rgb(253, 251, 251);
+  /* border: 1px solid; */
+  min-width: 650px;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(192, 188, 188);
+}
+
+.portfolio {
+  height: 150px;
+  width: 90%;
+  float:left;
+  margin: 20px;
+  padding-left: 15px;  
+}
+
+.portfolioLink {
+  display: flex; 
+  flex-direction: column;
+  height: 150px;
+  float: right;
+  margin: 20px;
+  margin-left: 120px;
+  align-self: right;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 300px;
+  min-width: 700px;
+  width: 50%;
+  border-radius: 5%;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.presentingPhoto {
+  margin-top: 30px;
+  margin-left: 10px; 
+  align-self: flex-end; 
+  justify-self: end;
+}
+
+#presentingPhoto {
+  width: 400px;
+}
+
+/* ========================== CONTACT PAGE ============================== */
+/* .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  background-color: rgb(253, 251, 251);
+  min-width: 50px;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(192, 188, 188);
+} */
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  background-color: rgb(253, 251, 251);
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  /* height: 150px; */
+  float:left;
+  /* margin: 20px; */
+  padding: 10px;
+  padding-left: 15px;   
+  border-bottom: 1px solid rgb(192, 188, 188);
+}
+
+#form {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  min-width: 650px;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  float:left;
+  padding: 10px;
+  padding-left: 15px;   
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  background-color: rgb(253, 251, 251);
+  min-width: 50px;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(192, 188, 188);
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.icons1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.icons2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: flex-start;
+}
+
+.iconM {
+  display: flex;
+  flex-direction: row;
+  background-color: #e6d9d9;
+  margin: 5px;
+  padding-right: 10px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.imgMedia {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+/* ========================== PORTFOLIO PAGE ============================== */
+.container3 {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  background-color: rgb(253, 251, 251);
+}
+
+.portfolioPageHeader {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+
+.down2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.down2L {
+  background-color: #ffffff;
+  border-radius: 5%;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.down2R {
+  background-color: #ffffff;
+  border-radius: 5%;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
